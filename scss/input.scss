@@ -1,0 +1,19 @@
+//variables
+$theme-color: #ffffcc;
+$theme-complement: complement($theme-color);
+
+body{
+background-color: $theme-color;    
+}
+WD,
+SM {
+    background-color: $theme-color; 
+}
+
+header{
+    background: $theme-complement;
+
+}
+footer{
+    background: $theme-complement;
+}
